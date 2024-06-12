@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hello</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="background">
+        <div class="boxContainer">
+          <div class="data">
+            <h1 class="title">HELLO APP</h1>
+            <p class="welcome-text">
+              Enter your name to get a personalized greeting and a free
+              motivational quote.
+            </p>
+
+            <form class="input-form">
+              <div>
+                <input
+                  id="name"
+                  class="input-text"
+                  type="text"
+                  placeholder="Enter Your Name"
+                />
+                <div class="error-message name-error"></div>
+              </div>
+
+              <button id="greetBtn" type="submit" class="button">
+                Get Greeting
+              </button>
+            </form>
+          </div>
+          <div id="response" class="hidden">
+            <div class="back">
+              <i class="fa-solid fa-arrow-left centerIcon"></i>
+            </div>
+            <div class="greet-text"></div>
+
+            <div class="motivation">
+              <h4 class="mot-text">Your daily motivation quote</h4>
+
+              <div class="mot-quote"></div>
+            </div>
+          </div>
+
+          <p class="footer">Made with Love from the Heart of Africa.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Link to JavaScript file -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
